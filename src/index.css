@@ -1,1 +1,10 @@
+/* wendy one font */
+@import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
+
+/* tailwind css  */
 @import "tailwindcss";
+
+/* font all body */
+body{
+    font-family: "Wendy One", sans-serif;
+}
