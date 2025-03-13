@@ -4,6 +4,7 @@ import Features from '../components/Features';
 import Benefits from '../components/Benefits';
 import Safe from '../components/Safe';
 import ClientSay from '../components/ClientSay';
+import WhyChooseUs from '../components/WhyChooseUs';
 
 const Home = () => {
     return (
@@ -12,7 +13,8 @@ const Home = () => {
            <Features></Features>
            <Benefits></Benefits>
            <Safe></Safe>
-           <ClientSay></ClientSay>
+           <WhyChooseUs></WhyChooseUs>
+           <ClientSay></ClientSay> 
         </div>
     );
 };
