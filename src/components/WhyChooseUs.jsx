@@ -55,8 +55,8 @@ const WhyChooseUs = () => {
             <img src={Fluffnshine} className='h-[500px] z-10 absolute top-0 right-24' alt="" />
             <img src={edsf} className='absolute bottom-0 right-0 z-20' alt="" />
             <img src={vecteezy} className='absolute bottom-0 -left-54 z-20' alt="" />
-            <img src={aroow} className='absolute top-0 -right-36' alt="" />
-            <img src={aroow} className='absolute -bottom-24 -right-36' alt="" />
+            <img src={aroow} className='absolute top-0  z-20 -right-36' alt="" />
+            <img src={aroow} className='absolute -bottom-24  z-20 -right-60' alt="" />
         </div>
         <div className='mr-32 space-y-10 mt-[170px]'>
             <div className='bg-white shadow p-6 border-2 border-[#B69659] rounded-xl'>

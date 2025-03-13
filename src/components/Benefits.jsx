@@ -11,10 +11,18 @@ import path from '../assets/benefit/path.png'
 const Benefits = () => {
     return (
       <section className='mt-8'>
-        <div className='text-center'>
-          <h1 className='text-7xl text-[#90610F]'>BENEFITS</h1>
-          <p className='border-t-4 border-[#90610F] -mt-6 mb-2'></p>
-        </div>
+        <div className="text-center">
+                <h2
+                    className="text-3xl md:text-4xl lg:text-6xl font-bold text-[#EEE6C1]"
+                    style={{
+                        textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
+                        WebkitTextStroke: '1px #90610F'
+                    }}
+                >
+                    BENEFITS
+                </h2>
+                <p className='border-t-4 border-[#90610F] -mt-6 mb-4'></p>
+            </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 bg-gradient-to-r from-[#90610F] to-[#B69659] py-10 px-6'>
           {/* Skin Health */}
           <div className='relative'>
