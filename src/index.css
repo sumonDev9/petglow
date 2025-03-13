@@ -1,6 +1,7 @@
 /* wendy one font */
 @import url('https://fonts.googleapis.com/css2?family=Wendy+One&display=swap');
-
+/* Zen Tokyo Zoo */
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
 /* tailwind css  */
 @import "tailwindcss";
 
@@ -16,4 +17,8 @@ body{
         3px 3px 5px rgba(0,0,0,0.2);
     letter-spacing: 2px;
     -webkit-text-stroke: 1px rgba(139, 110, 45, 0.5);
+}
+
+.text{
+    font-family: "Zen Tokyo Zoo", system-ui;
 }
