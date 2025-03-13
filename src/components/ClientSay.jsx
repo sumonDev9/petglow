@@ -137,7 +137,7 @@
 import React from 'react';
 import { FaStar } from 'react-icons/fa';
 import dog from '../assets/client/dog.png';
-
+import 'aos/dist/aos.css';
 const ClientSay = () => {
   return (
     <section className='bg-[#EEE6C1] py-10 px-5'>

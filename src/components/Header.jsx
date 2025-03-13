@@ -10,7 +10,7 @@ import Group2 from '../assets/header/Group2.png';
 
 const Header = () => {
     useEffect(() => {
-        AOS.init({ duration: 1200, once: true });
+        AOS.init({ duration: 1000, once: true });
     }, []);
 
     return (

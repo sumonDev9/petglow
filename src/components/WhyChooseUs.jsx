@@ -97,7 +97,7 @@ import aroow from '../assets/choose/aroow.png';
 
 const WhyChooseUs = () => {
     useEffect(() => {
-        AOS.init({ duration: 1600, once: true });
+        AOS.init({ duration: 1000, once: true });
     }, []);
 
     return (
@@ -156,7 +156,7 @@ const WhyChooseUs = () => {
 
             {/* Buy Now Button */}
             <div className='flex justify-center items-center' data-aos='fade-up'>
-                <button className='bg-[#AD5915DB] bg-opacity-86 text-white text-2xl cursor-pointer lg:text-3xl px-6 py-2 rounded-full'>
+                <button className='bg-[#AD5915DB] bg-opacity-86 text-white text-2xl cursor-pointer lg:text-3xl px-6 py-2 rounded-full transition-transform duration-300 hover:scale-110 hover:bg-[#8A4511]'>
                     Buy Now
                 </button>
             </div>

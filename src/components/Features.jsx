@@ -7,26 +7,41 @@ import round from '../assets/feture/round.png'
 import vetor from '../assets/feture/Vector.png'
 import Arrow from '../assets/feture/Arow.png'
 import Aos from 'aos';
+import 'aos/dist/aos.css';
 const Features = () => {
     useEffect(() => {
-        Aos.init({ duration: 1300 });
+        Aos.init({ duration: 1000 });
     }, []);
     return (
         <div className="relative bg-white">
 
             {/* Section title */}
-            <h2 data-aos="fade-up"  className="text-center text-2xl md:text-3xl lg:text-4xl font-bold -pt-10 text-[#8A6D2F] mb-6 md:mb-10">
+            {/* <h2 data-aos="fade-up"  className="text-center text-2xl md:text-3xl lg:text-4xl font-bold -pt-10 text-[#8A6D2F] mb-6 md:mb-10">
                 <p>Four-in-one</p>
                 <p>Is the solution</p>
-            </h2>
+            </h2> */}
+
+<div className="text-center" data-aos="fade-up">
+        <h2
+          className="text-3xl md:text-4xl lg:text-6xl font-bold text-[#EEE6C1]"
+          style={{
+            textShadow: '2px 2px 4px rgba(0,0,0,0.3)',
+            WebkitTextStroke: '1px #90610F'
+          }}
+        >
+       <p>Four-in-one</p>
+       <p>Is the solution</p>
+        </h2>
+      </div>
+
             <div className='flex'>
                 <div className='top-0 left-0'>
                     <img src={soap} className='-ml-28' alt="" />
-                    <h1 className='absolute top-60 left-14 lg:text-6xl text-[#90610F]'>Why Choose Fluff n <br />Shine Dog Shampoo?</h1>
+                    <h1 className='absolute top-60 left-14 lg:text-6xl text-[#90610F] z-20'>Why Choose Fluff n <br />Shine Dog Shampoo?</h1>
                 </div>
                 <div>
                 
-                    <img src={round} className="w-[700px] h-full" data-aos="zoom-in" alt="" />
+                    <img src={round} className="w-[700px] h-full z-30" data-aos="zoom-in" alt="" />
                     
                     <div className='absolute top-40 ml-[350px]'>
                         <img src={Fluffnshine} className='w-full h-[550px]' data-aos="fade-up" alt="" />
@@ -63,8 +78,10 @@ const Features = () => {
                  
                 </div>
             </div>
-            <div className='flex justify-center items-center' data-aos="zoom-in">
-                <button className='bg-[#AD5915DB] bg-opacity-86 text-white lg:text-4xl px-6 py-2 rounded-full'>Buy Now</button>
+            <div className='flex justify-center items-center' data-aos='fade-up'>
+                <button className='bg-[#AD5915DB] bg-opacity-86 text-white text-2xl cursor-pointer lg:text-3xl px-6 py-2 rounded-full transition-transform duration-300 hover:scale-110 hover:bg-[#8A4511]'>
+                    Buy Now
+                </button>
             </div>
 
         </div>

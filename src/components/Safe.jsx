@@ -75,7 +75,7 @@ import sded from '../assets/safe/sded.png';
 const Safe = () => {
     useEffect(() => {
         AOS.init({
-            duration: 1500, // Smooth and slow animations
+            duration: 1000, // Smooth and slow animations
             once: true, // Animates only once
             offset: 100, // Trigger animation a bit earlier
         });

@@ -68,7 +68,6 @@
 import React, { useEffect } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-
 import moisturizes from '../assets/benefit/moisturizes.png';
 import detangles from '../assets/benefit/detangles.png';
 import Enhances from '../assets/benefit/EnhancesHair.png';
@@ -80,7 +79,7 @@ import path from '../assets/benefit/path.png';
 
 const Benefits = () => {
   useEffect(() => {
-    AOS.init({ duration: 1400, once: true });
+    AOS.init({ duration: 1000, once: true });
   }, []);
 
   return (
