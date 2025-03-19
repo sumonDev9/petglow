@@ -140,7 +140,7 @@ import dog from '../assets/client/dog.png';
 import 'aos/dist/aos.css';
 const ClientSay = () => {
   return (
-    <section className='bg-[#EEE6C1] py-10 px-5'>
+    <section className='bg-[#EEE6C1] py-10 px-2 md:px-5'>
       {/* Heading */}
       <div className="text-center mb-8" data-aos="fade-down">
         <h2
@@ -155,12 +155,12 @@ const ClientSay = () => {
       </div>
 
       {/* Content */}
-      <div className='flex justify-between'>
+      <div className='grid grid-cols-1 md:grid-cols-3'>
         {/* Left Testimonials */}
-        <div className='space-y-5 relative z-0'>
+        <div className='flex flex-col space-y-5 relative z-0'>
           {/* Suhad Ajmani */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg mt-14 -mr-20 -rotate-2'
+            className='p-2 lg:p-5 bg-white shadow space-y-2 rounded-lg  lg:mt-14 lg:-mr-20 md:-rotate-2'
             data-aos="fade-right"
             data-aos-delay="100"
           >
@@ -172,14 +172,14 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "Finally, a shampoo that actually makes my dog's coat look healthy and luxurious!"
             </p>
           </div>
 
           {/* Amazon Customer */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg mt-8 left-0 z-50 -mr-18 rotate-2'
+            className='p-2 lg:p-5 bg-white shadow space-y-2 rounded-lg lg:mt-8 left-0 z-50 lg:-mr-18 md:rotate-2'
             data-aos="fade-right"
             data-aos-delay="200"
           >
@@ -191,14 +191,14 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "Fluff N Shine turned my dog's dull fur into a glossy, show-ready coat in one wash!"
             </p>
           </div>
 
           {/* Deep Barman */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg absolute z-10 -mr-20 bottom-0'
+            className='p-2 lg:p-5 hidden lg:block bg-white shadow space-y-2 rounded-lg absolute z-10 lg:-mr-20 md:bottom-0'
             data-aos="fade-right"
             data-aos-delay="300"
           >
@@ -210,7 +210,7 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "My Golden Retriever looks like a walking cloud—soft, fluffy, and gorgeous!"
             </p>
           </div>
@@ -225,7 +225,7 @@ const ClientSay = () => {
         <div className='space-y-5 relative'>
           {/* Fania */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg rotate-4 -ml-20'
+            className='p-2 lg:p-5 bg-white shadow space-y-2 rounded-lg md:rotate-4 lg:-ml-20'
             data-aos="fade-left"
             data-aos-delay="100"
           >
@@ -237,14 +237,14 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "It's like a spa day for my pup—smells amazing and leaves the fur super smooth!"
             </p>
           </div>
 
           {/* Vaibhav Bhatt */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg absolute -ml-20 z-50 right-0 mt-9'
+            className='p-2 lg:p-5 hidden md:block bg-white shadow space-y-2 rounded-lg absolute lg:-ml-20 z-50 right-0 mt-9'
             data-aos="fade-left"
             data-aos-delay="200"
           >
@@ -256,14 +256,14 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "Tangles? Gone. Frizz? Gone. Just a silky, fluffy coat that I can't stop touching!"
             </p>
           </div>
 
           {/* Rakesh Rathor */}
           <div
-            className='p-5 bg-white shadow space-y-2 rounded-lg absolute -ml-20 bottom-0 z-50'
+            className='p-2 lg:p-5 hidden lg:block bg-white shadow space-y-2 rounded-lg absolute -ml-20 bottom-0 z-50'
             data-aos="fade-left"
             data-aos-delay="300"
           >
@@ -275,7 +275,7 @@ const ClientSay = () => {
               <FaStar />
               <FaStar />
             </div>
-            <p className='text-[#000000] font-sans font-bold'>
+            <p className='text-[#000000] text-sm lg:text-lg font-sans font-bold'>
               "My dog's fur has NEVER been this soft and shiny—absolutely magical!"
             </p>
           </div>

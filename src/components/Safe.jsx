@@ -82,10 +82,10 @@ const Safe = () => {
     }, []);
 
     return (
-        <div className='grid grid-cols-1 lg:grid-cols-3 py-10 bg-gradient-to-r from-[#ddc8a1] to-[#ffffff]'>
+        <div className='relative grid grid-cols-1 md:grid-cols-3 py-10 bg-gradient-to-r from-[#ddc8a1] to-[#ffffff]'>
             {/* Natural */}
             <div className='space-y-7 mx-auto'>
-                <div data-aos="fade-right">
+                <div className='hidden md:block' data-aos="fade-right">
                     <img src={Group} alt="Group3" />
                 </div>
                 <div className='relative bg-white rounded-full' data-aos="zoom-in">
@@ -103,22 +103,22 @@ const Safe = () => {
 
             {/* Shampoo */}
             <div className='relative' data-aos="fade-up">
-                <img src={bg} alt="Background" />
-                <img className='absolute top-6 right-24 h-[600px]' src={Fluffnshine} alt="Fluffnshine" />
-                <img src={yorkshire} className='absolute top-28 -right-44' alt="Yorkshire" />
+                <img src={bg} className='md:mt-32 lg:mt-0' alt="Background" />
+                <img className='absolute top-0 right-20  md:top-24 md:right-8 lg:top-6 lg:right-24 h-[350px] md:h-[500px] lg:h-[600px]' src={Fluffnshine} alt="Fluffnshine" />
+                <img src={yorkshire} className='hidden absolute top-28 -right-44' alt="Yorkshire" />
             </div>
 
             {/* Safe */}
-            <div className='space-y-2 mx-auto'>
-                <h2 className='text-[#855605] text-7xl leading-none' data-aos="fade-left">
-                    100% <span className='text-7xl'>SAFE</span><br />
-                    <span className='text-[#000000] font-sans text-5xl'>FOR YOUR DOG</span>
+            <div className='space-y-7 mx-auto'>
+                <h2 className='text-[#855605] text-3xl md:text-2xl lg:text-7xl leading-none text' data-aos="fade-left">
+                    100% <span className='text-4xl md:text-2xl lg:text-7xl'>SAFE</span><br />
+                    <span className='text-[#000000] font-sans md:text-2xl lg:text-5xl'>FOR YOUR DOG</span>
                 </h2>
-                <div className='relative' data-aos="flip-up">
-                    <img src={Untitled1} className='mx-auto' alt="Untitled1" />
-                    <img src={sded} className='absolute top-[83px] right-[94px]' alt="Sded" />
+                <div className='relative ' data-aos="flip-up">
+                    <img src={Untitled1} className='mx-auto bg-white rounded-full' alt="Untitled1" />
+                    <img src={sded} className='absolute top-12 right-11 md:top-12 md:right-11  lg:top-[55px] lg:right-[96px]' alt="Sded" />
                 </div>
-                <img src={ph} className='mx-auto' alt="PH" data-aos="zoom-out" />
+                <img src={ph} className='mx-auto bg-white rounded-full' alt="PH" data-aos="zoom-out" />
             </div>
         </div>
     );

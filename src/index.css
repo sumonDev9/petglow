@@ -22,3 +22,22 @@ body{
 .text{
     font-family: "Zen Tokyo Zoo", system-ui;
 }
+
+::-webkit-scrollbar {
+    width: 1rem;
+  }
+
+  /* ::-webkit-scrollbar-track {
+    background: #0E7A81; 
+  } */
+   
+  ::-webkit-scrollbar-thumb {
+    background: #B69659; 
+    border: 5px solid transparent;
+    border-radius: 9px;
+    background-clip: content-box;
+  }
+
+  body, html {
+    overflow-x: hidden;
+}
